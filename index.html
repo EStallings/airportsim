@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<LINK href="style.css" rel="stylesheet" type="text/css">
+<title>AirPort</title>
+
+<script src="scripts/Point.js"> </script> 
+<script src="scripts/main.js"> </script> 
+<script src="scripts/View.js"> </script> 
+<script src="scripts/Controls.js"> </script> 
+<script src="scripts/Router.js"> </script> 
+<script src="scripts/BaggageSystem.js"> </script> 
+<script src="scripts/Airplane.js"> </script> 
+<script src="scripts/Airline.js"> </script> 
+<script src="scripts/Airport.js"> </script> 
+<script src="scripts/Bag.js"> </script> 
+<script src="scripts/Handler.js"> </script> 
+<script src="scripts/DrawableObject.js"> </script> 
+<script src="scripts/SwitchNode.js"> </script> 
+<script src="scripts/Belt.js"> </script> 
+<script src="scripts/CollectionPoint.js"> </script> 
+<script src="scripts/Scanner.js"> </script>
+<script src="scripts/BaggageClaim.js"> </script>
+<script src="scripts/CheckIn.js"> </script> 
+<script src="scripts/Gate.js"> </script>
+<script src="scripts/GenerateContentList.js"></script>
+<script src="scripts/SecurityCollection.js"></script>
+<script src="scripts/Worker.js"> </script>
+</head>
+
+
+<style type="text/css">
+	#MainCanvas{z-index:-1;position: fixed;}
+	#Instructions{pointer-events:none;width:100%;opacity:0.7;background-color:#3F8599;z-index:0;bottom:0px;position:fixed;}
+</style>
+
+<body id="body" onload="init();">
+
+<canvas id="MainCanvas" width="800px" height="600px"> </canvas>
+<div id="Instructions">
+	Press I to show/hide instructions
+	<br/>Press [ and ] to slow down/speed up the simulation
+	<br/>Press spacebar to pause
+	<br/>Press A and Z to increase/decrease bag spawning rate
+	<br/>Press S to spawn a random airplane
+	<br/>Press X to toggle bag text display (ID/Destination/none)
+	<br/>Press + and - to zoom in/out
+</div>
+</body>
+</html>

@@ -1,0 +1,1591 @@
+<CONFIG>
+	<system_out>
+		<HANDLERS>
+			<checkin id="c00" x="50" y="900"></checkin>
+			<checkin id="c01" x="100" y="900"></checkin>
+			<checkin id="c02" x="150" y="900"></checkin>
+			<checkin id="c03" x="200" y="900"></checkin>
+			<checkin id="c04" x="250" y="900"></checkin>
+			
+			<checkin id="c05" x="300" y="900"></checkin>
+			<checkin id="c06" x="350" y="900"></checkin>
+			<checkin id="c07" x="400" y="900"></checkin>
+			<checkin id="c08" x="450" y="900"></checkin>
+			<checkin id="c09" x="500" y="900"></checkin>
+			
+			
+			<node id="n0:000" x="75" y="850"></node>
+			<node id="n0:001" x="175" y="850"></node>
+			<node id="n0:002" x="275" y="850"></node>
+			<node id="n0:003" x="375" y="850"></node>
+			<node id="n0:004" x="475" y="850"></node>
+			
+			<node id="n1:000" x="175" y="800"></node>
+			<node id="n1:001" x="275" y="800"></node>
+			<node id="n1:002" x="375" y="800"></node>
+			<node id="n2:000" x="275" y="750"></node>
+			
+			<scanner id="s0" x="275" y="400"></scanner>
+			<security id="sec0" x="350" y="400"></security>
+			
+			<node id="n3:000" x="150" y="375"></node>
+			<coll id="d000" x="150" y="600"></coll>
+			
+			<node id="n3:001" x="275" y="300"></node>
+			<node id="n3:002" x="400" y="375"></node>
+			<coll id="d002" x="400" y="600"></coll>
+			
+			<node id="n4:000" x="175" y="325"></node>
+			<node id="n4:001" x="275" y="250"></node>
+			<node id="n4:002" x="375" y="325"></node>
+			
+			<node id="n5:000" x="50" y="225"></node>
+			<node id="n5:001" x="100" y="225"></node>
+			<node id="n5:002" x="150" y="200"></node>
+			<node id="n5:003" x="200" y="200"></node>
+			<node id="n5:004" x="250" y="175"></node>
+			<node id="n5:005" x="300" y="175"></node>
+			<node id="n5:006" x="350" y="200"></node>
+			<node id="n5:007" x="400" y="200"></node>
+			<node id="n5:008" x="450" y="225"></node>
+			<node id="n5:009" x="500" y="225"></node>
+			
+			<node id="n6:000" x="75" y="175"></node>
+			<node id="n6:001" x="175" y="150"></node>
+			<node id="n6:002" x="275" y="125"></node>
+			<node id="n6:003" x="375" y="150"></node>
+			<node id="n6:004" x="475" y="175"></node>
+			
+			<gate id="g000" x="30" y="50"></gate>
+			<gate id="g001" x="50" y="50"></gate>
+			<gate id="g002" x="70" y="50"></gate>
+			<gate id="g003" x="90" y="50"></gate>
+			<gate id="g004" x="110" y="50"></gate>
+			<gate id="g005" x="130" y="50"></gate>
+			<gate id="g006" x="150" y="50"></gate>
+			<gate id="g007" x="170" y="50"></gate>
+			<gate id="g008" x="190" y="50"></gate>
+			<gate id="g009" x="210" y="50"></gate>
+			<gate id="g010" x="230" y="50"></gate>
+			<gate id="g011" x="250" y="50"></gate>
+			<gate id="g012" x="270" y="50"></gate>
+			<gate id="g013" x="290" y="50"></gate>
+			<gate id="g014" x="310" y="50"></gate>
+			<gate id="g015" x="330" y="50"></gate>
+			<gate id="g016" x="350" y="50"></gate>
+			<gate id="g017" x="370" y="50"></gate>
+			<gate id="g018" x="390" y="50"></gate>
+			<gate id="g019" x="410" y="50"></gate>
+			<gate id="g020" x="430" y="50"></gate>
+			<gate id="g021" x="450" y="50"></gate>
+			<gate id="g022" x="470" y="50"></gate>
+			<gate id="g023" x="490" y="50"></gate>
+			<gate id="g024" x="510" y="50"></gate>
+			
+			
+			<checkin id="c10" x="550" y="900"></checkin>
+			<checkin id="c11" x="600" y="900"></checkin>
+			<checkin id="c12" x="650" y="900"></checkin>
+			<checkin id="c13" x="700" y="900"></checkin>
+			<checkin id="c14" x="750" y="900"></checkin>
+			<checkin id="c15" x="800" y="900"></checkin>
+			<checkin id="c16" x="850" y="900"></checkin>
+			<checkin id="c17" x="900" y="900"></checkin>
+			<checkin id="c18" x="950" y="900"></checkin>
+			<checkin id="c19" x="1000" y="900"></checkin>
+			
+			<node id="n0:010" x="575" y="850"></node>
+			<node id="n0:011" x="675" y="850"></node>
+			<node id="n0:012" x="775" y="850"></node>
+			<node id="n0:013" x="875" y="850"></node>
+			<node id="n0:014" x="975" y="850"></node>
+			
+			<node id="n1:010" x="675" y="800"></node>
+			<node id="n1:011" x="775" y="800"></node>
+			<node id="n1:012" x="875" y="800"></node>
+			<node id="n2:010" x="775" y="750"></node>
+			
+			<scanner id="s1" x="775" y="400"></scanner>
+			<security id="sec1" x="850" y="400"></security>
+			
+			<node id="n3:010" x="650" y="375"></node>
+			<coll id="d003" x="650" y="600"></coll>
+			<node id="n3:011" x="775" y="300"></node>
+			<node id="n3:012" x="900" y="375"></node>
+			<coll id="d004" x="900" y="600"></coll>
+			
+			<node id="n4:010" x="675" y="325"></node>
+			<node id="n4:011" x="775" y="250"></node>
+			<node id="n4:012" x="875" y="325"></node>
+			
+			<node id="n5:010" x="550" y="225"></node>
+			<node id="n5:011" x="600" y="225"></node>
+			<node id="n5:012" x="650" y="200"></node>
+			<node id="n5:013" x="700" y="200"></node>
+			<node id="n5:014" x="750" y="175"></node>
+			<node id="n5:015" x="800" y="175"></node>
+			<node id="n5:016" x="850" y="200"></node>
+			<node id="n5:017" x="900" y="200"></node>
+			<node id="n5:018" x="950" y="225"></node>
+			<node id="n5:019" x="1000" y="225"></node>
+			
+			<node id="n6:010" x="575" y="175"></node>
+			<node id="n6:011" x="675" y="150"></node>
+			<node id="n6:012" x="775" y="125"></node>
+			<node id="n6:013" x="875" y="150"></node>
+			<node id="n6:014" x="975" y="175"></node>
+		
+			<gate id="g100" x="530" y="50"></gate>
+			<gate id="g101" x="550" y="50"></gate>
+			<gate id="g102" x="570" y="50"></gate>
+			<gate id="g103" x="590" y="50"></gate>
+			<gate id="g104" x="610" y="50"></gate>
+			<gate id="g105" x="630" y="50"></gate>
+			<gate id="g106" x="650" y="50"></gate>
+			<gate id="g107" x="670" y="50"></gate>
+			<gate id="g108" x="690" y="50"></gate>
+			<gate id="g109" x="710" y="50"></gate>
+			<gate id="g110" x="730" y="50"></gate>
+			<gate id="g111" x="750" y="50"></gate>
+			<gate id="g112" x="770" y="50"></gate>
+			<gate id="g113" x="790" y="50"></gate>
+			<gate id="g114" x="810" y="50"></gate>
+			<gate id="g115" x="830" y="50"></gate>
+			<gate id="g116" x="850" y="50"></gate>
+			<gate id="g117" x="870" y="50"></gate>
+			<gate id="g118" x="890" y="50"></gate>
+			<gate id="g119" x="910" y="50"></gate>
+			<gate id="g120" x="930" y="50"></gate>
+			<gate id="g121" x="950" y="50"></gate>
+			<gate id="g122" x="970" y="50"></gate>
+			<gate id="g123" x="990" y="50"></gate>
+			<gate id="g124" x="1010" y="50"></gate>
+			
+			
+			
+			
+			<checkin id="c20" x="1050" y="900"></checkin>
+			<checkin id="c21" x="1100" y="900"></checkin>
+			<checkin id="c22" x="1150" y="900"></checkin>
+			<checkin id="c23" x="1200" y="900"></checkin>
+			<checkin id="c24" x="1250" y="900"></checkin>
+			<checkin id="c25" x="1300" y="900"></checkin>
+			<checkin id="c26" x="1350" y="900"></checkin>
+			<checkin id="c27" x="1400" y="900"></checkin>
+			<checkin id="c28" x="1450" y="900"></checkin>
+			<checkin id="c29" x="1500" y="900"></checkin>
+			
+			<node id="n0:020" x="1075" y="850"></node>
+			<node id="n0:021" x="1175" y="850"></node>
+			<node id="n0:022" x="1275" y="850"></node>
+			<node id="n0:023" x="1375" y="850"></node>
+			<node id="n0:024" x="1475" y="850"></node>
+			
+			<node id="n1:020" x="1175" y="800"></node>
+			<node id="n1:021" x="1275" y="800"></node>
+			<node id="n1:022" x="1375" y="800"></node>
+			<node id="n2:020" x="1275" y="750"></node>
+			
+			<scanner id="s2" x="1275" y="400"></scanner>
+			<security id="sec2" x="1350" y="400"></security>
+			
+			<node id="n3:020" x="1150" y="375"></node>
+			<coll id="d005" x="1150" y="600"></coll>
+			<node id="n3:021" x="1275" y="300"></node>
+			<node id="n3:022" x="1400" y="375"></node>
+			<coll id="d006" x="1400" y="600"></coll>
+			<node id="n4:020" x="1175" y="325"></node>
+			<node id="n4:021" x="1275" y="250"></node>
+			<node id="n4:022" x="1375" y="325"></node>
+			
+			<node id="n5:020" x="1050" y="225"></node>
+			<node id="n5:021" x="1100" y="225"></node>
+			<node id="n5:022" x="1150" y="200"></node>
+			<node id="n5:023" x="1200" y="200"></node>
+			<node id="n5:024" x="1250" y="175"></node>
+			<node id="n5:025" x="1300" y="175"></node>
+			<node id="n5:026" x="1350" y="200"></node>
+			<node id="n5:027" x="1400" y="200"></node>
+			<node id="n5:028" x="1450" y="225"></node>
+			<node id="n5:029" x="1500" y="225"></node>
+			
+			<node id="n6:020" x="1075" y="175"></node>
+			<node id="n6:021" x="1175" y="150"></node>
+			<node id="n6:022" x="1275" y="125"></node>
+			<node id="n6:023" x="1375" y="150"></node>
+			<node id="n6:024" x="1475" y="175"></node>
+		
+			<gate id="g200" x="1030" y="50"></gate>
+			<gate id="g201" x="1050" y="50"></gate>
+			<gate id="g202" x="1070" y="50"></gate>
+			<gate id="g203" x="1090" y="50"></gate>
+			<gate id="g204" x="1110" y="50"></gate>
+			<gate id="g205" x="1130" y="50"></gate>
+			<gate id="g206" x="1150" y="50"></gate>
+			<gate id="g207" x="1170" y="50"></gate>
+			<gate id="g208" x="1190" y="50"></gate>
+			<gate id="g209" x="1210" y="50"></gate>
+			<gate id="g210" x="1230" y="50"></gate>
+			<gate id="g211" x="1250" y="50"></gate>
+			<gate id="g212" x="1270" y="50"></gate>
+			<gate id="g213" x="1290" y="50"></gate>
+			<gate id="g214" x="1310" y="50"></gate>
+			<gate id="g215" x="1330" y="50"></gate>
+			<gate id="g216" x="1350" y="50"></gate>
+			<gate id="g217" x="1370" y="50"></gate>
+			<gate id="g218" x="1390" y="50"></gate>
+			<gate id="g219" x="1410" y="50"></gate>
+			<gate id="g220" x="1430" y="50"></gate>
+			<gate id="g221" x="1450" y="50"></gate>
+			<gate id="g222" x="1470" y="50"></gate>
+			<gate id="g223" x="1490" y="50"></gate>
+			<gate id="g224" x="1510" y="50"></gate>
+			
+			<checkin id="c30" x="1550" y="900"></checkin>
+			<checkin id="c31" x="1600" y="900"></checkin>
+			<checkin id="c32" x="1650" y="900"></checkin>
+			<checkin id="c33" x="1700" y="900"></checkin>
+			<checkin id="c34" x="1750" y="900"></checkin>
+			<checkin id="c35" x="1800" y="900"></checkin>
+			<checkin id="c36" x="1850" y="900"></checkin>
+			<checkin id="c37" x="1900" y="900"></checkin>
+			<checkin id="c38" x="1950" y="900"></checkin>
+			<checkin id="c39" x="2000" y="900"></checkin>
+			
+			<node id="n0:030" x="1575" y="850"></node>
+			<node id="n0:031" x="1675" y="850"></node>
+			<node id="n0:032" x="1775" y="850"></node>
+			<node id="n0:033" x="1875" y="850"></node>
+			<node id="n0:034" x="1975" y="850"></node>
+			
+			<node id="n1:030" x="1675" y="800"></node>
+			<node id="n1:031" x="1775" y="800"></node>
+			<node id="n1:032" x="1875" y="800"></node>
+			<node id="n2:030" x="1775" y="750"></node>
+			
+			<scanner id="s3" x="1775" y="400"></scanner>
+			<security id="sec3" x="1850" y="400"></security>
+			
+			<node id="n3:030" x="1650" y="375"></node>
+			<coll id="d007" x="1650" y="600"></coll>
+			<node id="n3:031" x="1775" y="300"></node>
+			<node id="n3:032" x="1900" y="375"></node>
+			<coll id="d008" x="1900" y="600"></coll>
+			<node id="n4:030" x="1675" y="325"></node>
+			<node id="n4:031" x="1775" y="250"></node>
+			<node id="n4:032" x="1875" y="325"></node>
+			
+			<node id="n5:030" x="1550" y="225"></node>
+			<node id="n5:031" x="1600" y="225"></node>
+			<node id="n5:032" x="1650" y="200"></node>
+			<node id="n5:033" x="1700" y="200"></node>
+			<node id="n5:034" x="1750" y="175"></node>
+			<node id="n5:035" x="1800" y="175"></node>
+			<node id="n5:036" x="1850" y="200"></node>
+			<node id="n5:037" x="1900" y="200"></node>
+			<node id="n5:038" x="1950" y="225"></node>
+			<node id="n5:039" x="2000" y="225"></node>
+			
+			<node id="n6:030" x="1575" y="175"></node>
+			<node id="n6:031" x="1675" y="150"></node>
+			<node id="n6:032" x="1775" y="125"></node>
+			<node id="n6:033" x="1875" y="150"></node>
+			<node id="n6:034" x="1975" y="175"></node>
+		
+			<gate id="g300" x="1530" y="50"></gate>
+			<gate id="g301" x="1550" y="50"></gate>
+			<gate id="g302" x="1570" y="50"></gate>
+			<gate id="g303" x="1590" y="50"></gate>
+			<gate id="g304" x="1610" y="50"></gate>
+			<gate id="g305" x="1630" y="50"></gate>
+			<gate id="g306" x="1650" y="50"></gate>
+			<gate id="g307" x="1670" y="50"></gate>
+			<gate id="g308" x="1690" y="50"></gate>
+			<gate id="g309" x="1710" y="50"></gate>
+			<gate id="g310" x="1730" y="50"></gate>
+			<gate id="g311" x="1750" y="50"></gate>
+			<gate id="g312" x="1770" y="50"></gate>
+			<gate id="g313" x="1790" y="50"></gate>
+			<gate id="g314" x="1810" y="50"></gate>
+			<gate id="g315" x="1830" y="50"></gate>
+			<gate id="g316" x="1850" y="50"></gate>
+			<gate id="g317" x="1870" y="50"></gate>
+			<gate id="g318" x="1890" y="50"></gate>
+			<gate id="g319" x="1910" y="50"></gate>
+			<gate id="g320" x="1930" y="50"></gate>
+			<gate id="g321" x="1950" y="50"></gate>
+			<gate id="g322" x="1970" y="50"></gate>
+			<gate id="g323" x="1990" y="50"></gate>
+			<gate id="g324" x="2010" y="50"></gate>
+			
+			<checkin id="c40" x="2050" y="900"></checkin>
+			<checkin id="c41" x="2100" y="900"></checkin>
+			<checkin id="c42" x="2150" y="900"></checkin>
+			<checkin id="c43" x="2200" y="900"></checkin>
+			<checkin id="c44" x="2250" y="900"></checkin>
+			<checkin id="c45" x="2300" y="900"></checkin>
+			<checkin id="c46" x="2350" y="900"></checkin>
+			<checkin id="c47" x="2400" y="900"></checkin>
+			<checkin id="c48" x="2450" y="900"></checkin>
+			<checkin id="c49" x="2500" y="900"></checkin>
+			
+			<node id="n0:040" x="2075" y="850"></node>
+			<node id="n0:041" x="2175" y="850"></node>
+			<node id="n0:042" x="2275" y="850"></node>
+			<node id="n0:043" x="2375" y="850"></node>
+			<node id="n0:044" x="2475" y="850"></node>
+			
+			<node id="n1:040" x="2175" y="800"></node>
+			<node id="n1:041" x="2275" y="800"></node>
+			<node id="n1:042" x="2375" y="800"></node>
+			<node id="n2:040" x="2275" y="750"></node>
+			
+			<scanner id="s4" x="2275" y="400"></scanner>
+			<security id="sec4" x="2350" y="400"></security>
+			
+			<node id="n3:040" x="2150" y="375"></node>
+			<coll id="d009" x="2150" y="600"></coll>
+			<node id="n3:041" x="2275" y="300"></node>
+			<node id="n3:042" x="2400" y="375"></node>
+			<coll id="d010" x="2400" y="600"></coll>
+			<node id="n4:040" x="2175" y="325"></node>
+			<node id="n4:041" x="2275" y="250"></node>
+			<node id="n4:042" x="2375" y="325"></node>
+			
+			<node id="n5:040" x="2050" y="225"></node>
+			<node id="n5:041" x="2100" y="225"></node>
+			<node id="n5:042" x="2150" y="200"></node>
+			<node id="n5:043" x="2200" y="200"></node>
+			<node id="n5:044" x="2250" y="175"></node>
+			<node id="n5:045" x="2300" y="175"></node>
+			<node id="n5:046" x="2350" y="200"></node>
+			<node id="n5:047" x="2400" y="200"></node>
+			<node id="n5:048" x="2450" y="225"></node>
+			<node id="n5:049" x="2500" y="225"></node>
+			
+			<node id="n6:040" x="2075" y="175"></node>
+			<node id="n6:041" x="2175" y="150"></node>
+			<node id="n6:042" x="2275" y="125"></node>
+			<node id="n6:043" x="2375" y="150"></node>
+			<node id="n6:044" x="2475" y="175"></node>
+		
+			<gate id="g400" x="2030" y="50"></gate>
+			<gate id="g401" x="2050" y="50"></gate>
+			<gate id="g402" x="2070" y="50"></gate>
+			<gate id="g403" x="2090" y="50"></gate>
+			<gate id="g404" x="2110" y="50"></gate>
+			<gate id="g405" x="2130" y="50"></gate>
+			<gate id="g406" x="2150" y="50"></gate>
+			<gate id="g407" x="2170" y="50"></gate>
+			<gate id="g408" x="2190" y="50"></gate>
+			<gate id="g409" x="2210" y="50"></gate>
+			<gate id="g410" x="2230" y="50"></gate>
+			<gate id="g411" x="2250" y="50"></gate>
+			<gate id="g412" x="2270" y="50"></gate>
+			<gate id="g413" x="2290" y="50"></gate>
+			<gate id="g414" x="2310" y="50"></gate>
+			<gate id="g415" x="2330" y="50"></gate>
+			<gate id="g416" x="2350" y="50"></gate>
+			<gate id="g417" x="2370" y="50"></gate>
+			<gate id="g418" x="2390" y="50"></gate>
+			<gate id="g419" x="2410" y="50"></gate>
+			<gate id="g420" x="2430" y="50"></gate>
+			<gate id="g421" x="2450" y="50"></gate>
+			<gate id="g422" x="2470" y="50"></gate>
+			<gate id="g423" x="2490" y="50"></gate>
+			<gate id="g424" x="2510" y="50"></gate>
+			
+						
+			
+		</HANDLERS>
+		<CONNECTIONS>
+			
+
+			
+			
+			
+			<belt from="c00" to="n0:000"></belt>
+			<belt from="c01" to="n0:000"></belt>
+			<belt from="c02" to="n0:001"></belt>
+			<belt from="c03" to="n0:001"></belt>
+			<belt from="c04" to="n0:002"></belt>
+			
+			<belt from="c05" to="n0:002"></belt>
+			<belt from="c06" to="n0:003"></belt>
+			<belt from="c07" to="n0:003"></belt>
+			<belt from="c08" to="n0:004"></belt>
+			<belt from="c09" to="n0:004"></belt>
+			
+			<belt from="n0:000" to="n0:001"></belt>
+			<belt from="n0:001" to="n0:002"></belt>
+			<belt from="n0:002" to="n0:003"></belt>
+			<belt from="n0:003" to="n0:004"></belt>
+			
+			<belt from="n0:000" to="n1:000"></belt>
+			<belt from="n0:001" to="n1:000"></belt>
+			<belt from="n0:002" to="n1:001"></belt>
+			<belt from="n0:003" to="n1:002"></belt>
+			<belt from="n0:004" to="n1:002"></belt>
+			
+			<belt from="n1:000" to="n0:002"></belt>
+			<belt from="n1:001" to="n0:003"></belt>
+			<belt from="n1:003" to="n0:004"></belt>
+			<belt from="n1:000" to="n2:000"></belt>
+			<belt from="n1:001" to="n1:000"></belt>
+			<belt from="n1:002" to="n1:001"></belt>
+			<belt from="n1:001" to="n2:000"></belt>
+			<belt from="n1:002" to="n2:000"></belt>
+			
+			<belt from="n2:000" to="s0"></belt>
+			<belt from="s0" to="n3:001"></belt>
+			<belt from="s0" to="sec0"></belt>
+			
+			
+			
+			<belt from="n3:000" to="n3:001"></belt>
+			<belt from="n3:001" to="n3:002"></belt>
+			
+			<belt from="n3:001" to="n4:000"></belt>
+			<belt from="n3:001" to="n4:001"></belt>
+			<belt from="n3:001" to="n4:002"></belt>
+			
+			<belt from="n3:000" to="n4:000"></belt>
+			<belt from="n4:002" to="n3:002"></belt>
+			
+			<belt from="n4:000" to="n5:001"></belt>
+			<belt from="n4:000" to="n5:002"></belt>
+			
+			<belt from="n4:001" to="n5:003"></belt>
+			<belt from="n4:001" to="n5:004"></belt>
+			<belt from="n4:001" to="n5:006"></belt>
+			
+			<belt from="n4:002" to="n5:007"></belt>
+			<belt from="n4:002" to="n5:008"></belt>
+			
+			<belt from="n5:000" to="n6:000"></belt>
+			<belt from="n5:002" to="n6:001"></belt>
+			<belt from="n5:004" to="n6:002"></belt>
+			<belt from="n5:006" to="n6:003"></belt>
+			<belt from="n5:008" to="n6:004"></belt>
+			
+			<belt from="n5:001" to="n5:000"></belt>
+			<belt from="n5:003" to="n5:002"></belt>
+			<belt from="n5:005" to="n5:004"></belt>
+			<belt from="n5:007" to="n5:006"></belt>
+			<belt from="n5:009" to="n5:008"></belt>
+			
+			<belt from="n5:001" to="n6:000"></belt>
+			<belt from="n6:001" to="n5:003"></belt>
+			<belt from="n6:002" to="n5:005"></belt>
+			<belt from="n6:003" to="n5:007"></belt>
+			<belt from="n6:004" to="n5:009"></belt>
+			
+			<belt from="n5:002" to="n5:001"></belt>
+			<belt from="n5:004" to="n5:003"></belt>
+			<belt from="n5:006" to="n5:005"></belt>
+			<belt from="n5:008" to="n5:007"></belt>
+			
+			<belt from="n6:000" to="n6:001"></belt>
+			<belt from="n6:001" to="n6:002"></belt>
+			<belt from="n6:002" to="n6:003"></belt>
+			<belt from="n6:003" to="n6:004"></belt>
+			
+			<belt from="n6:000" to="g000"></belt>
+			<belt from="n6:000" to="g001"></belt>
+			<belt from="n6:000" to="g002"></belt>
+			<belt from="n6:000" to="g003"></belt>
+			<belt from="n6:000" to="g004"></belt>
+			
+			<belt from="n6:001" to="g005"></belt>
+			<belt from="n6:001" to="g006"></belt>
+			<belt from="n6:001" to="g007"></belt>
+			<belt from="n6:001" to="g008"></belt>
+			<belt from="n6:001" to="g009"></belt>
+			
+			<belt from="n6:002" to="g010"></belt>
+			<belt from="n6:002" to="g011"></belt>
+			<belt from="n6:002" to="g012"></belt>
+			<belt from="n6:002" to="g013"></belt>
+			<belt from="n6:002" to="g014"></belt>
+			
+			<belt from="n6:003" to="g015"></belt>
+			<belt from="n6:003" to="g016"></belt>
+			<belt from="n6:003" to="g017"></belt>
+			<belt from="n6:003" to="g018"></belt>
+			<belt from="n6:003" to="g019"></belt>
+			
+			<belt from="n6:004" to="g020"></belt>
+			<belt from="n6:004" to="g021"></belt>
+			<belt from="n6:004" to="g022"></belt>
+			<belt from="n6:004" to="g023"></belt>
+			<belt from="n6:004" to="g024"></belt>
+			
+												<!-- BREAK -->
+												
+												
+			<belt from="c10" to="n0:010"></belt>
+			<belt from="c11" to="n0:010"></belt>
+			<belt from="c12" to="n0:011"></belt>
+			<belt from="c13" to="n0:011"></belt>
+			<belt from="c14" to="n0:012"></belt>
+			
+			<belt from="c15" to="n0:012"></belt>
+			<belt from="c16" to="n0:013"></belt>
+			<belt from="c17" to="n0:013"></belt>
+			<belt from="c18" to="n0:014"></belt>
+			<belt from="c19" to="n0:014"></belt>
+			
+			<belt from="n0:010" to="n0:011"></belt>
+			<belt from="n0:011" to="n0:012"></belt>
+			<belt from="n0:012" to="n0:013"></belt>
+			<belt from="n0:013" to="n0:014"></belt>
+			
+			<belt from="n0:010" to="n1:010"></belt>
+			<belt from="n0:011" to="n1:010"></belt>
+			<belt from="n0:012" to="n1:011"></belt>
+			<belt from="n0:013" to="n1:012"></belt>
+			<belt from="n0:014" to="n1:012"></belt>
+			
+			<belt from="n1:010" to="n0:012"></belt>
+			<belt from="n1:011" to="n0:013"></belt>
+			<belt from="n1:013" to="n0:014"></belt>
+			<belt from="n1:010" to="n2:010"></belt>
+			<belt from="n1:011" to="n1:010"></belt>
+			<belt from="n1:012" to="n1:011"></belt>
+			<belt from="n1:011" to="n2:010"></belt>
+			<belt from="n1:012" to="n2:010"></belt>
+			
+			<belt from="n2:010" to="s1"></belt>
+			<belt from="s1" to="n3:011"></belt>
+			<belt from="s1" to="sec1"></belt>
+			
+			<belt from="n3:010" to="n3:011"></belt>
+			<belt from="n3:011" to="n3:012"></belt>
+			
+			<belt from="n3:011" to="n4:010"></belt>
+			<belt from="n3:011" to="n4:011"></belt>
+			<belt from="n3:011" to="n4:012"></belt>
+			
+			<belt from="n3:010" to="n4:010"></belt>
+			<belt from="n4:012" to="n3:012"></belt>
+			
+			<belt from="n4:010" to="n5:011"></belt>
+			<belt from="n4:010" to="n5:012"></belt>
+			
+			<belt from="n4:011" to="n5:013"></belt>
+			<belt from="n4:011" to="n5:014"></belt>
+			<belt from="n4:011" to="n5:016"></belt>
+			
+			<belt from="n4:012" to="n5:017"></belt>
+			<belt from="n4:012" to="n5:018"></belt>
+			
+			<belt from="n5:010" to="n6:010"></belt>
+			<belt from="n5:012" to="n6:011"></belt>
+			<belt from="n5:014" to="n6:012"></belt>
+			<belt from="n5:016" to="n6:013"></belt>
+			<belt from="n5:018" to="n6:014"></belt>
+			
+			<belt from="n5:011" to="n5:010"></belt>
+			<belt from="n5:013" to="n5:012"></belt>
+			<belt from="n5:015" to="n5:014"></belt>
+			<belt from="n5:017" to="n5:016"></belt>
+			<belt from="n5:019" to="n5:018"></belt>
+			
+			<belt from="n5:011" to="n6:010"></belt>
+			<belt from="n6:011" to="n5:013"></belt>
+			<belt from="n6:012" to="n5:015"></belt>
+			<belt from="n6:013" to="n5:017"></belt>
+			<belt from="n6:014" to="n5:019"></belt>
+			
+			<belt from="n5:012" to="n5:011"></belt>
+			<belt from="n5:014" to="n5:013"></belt>
+			<belt from="n5:016" to="n5:015"></belt>
+			<belt from="n5:018" to="n5:017"></belt>
+			
+			<belt from="n6:010" to="n6:011"></belt>
+			<belt from="n6:011" to="n6:012"></belt>
+			<belt from="n6:012" to="n6:013"></belt>
+			<belt from="n6:013" to="n6:014"></belt>
+			
+			<belt from="n6:010" to="g100"></belt>
+			<belt from="n6:010" to="g101"></belt>
+			<belt from="n6:010" to="g102"></belt>
+			<belt from="n6:010" to="g103"></belt>
+			<belt from="n6:010" to="g104"></belt>
+			
+			<belt from="n6:011" to="g105"></belt>
+			<belt from="n6:011" to="g106"></belt>
+			<belt from="n6:011" to="g107"></belt>
+			<belt from="n6:011" to="g108"></belt>
+			<belt from="n6:011" to="g109"></belt>
+			
+			<belt from="n6:012" to="g110"></belt>
+			<belt from="n6:012" to="g111"></belt>
+			<belt from="n6:012" to="g112"></belt>
+			<belt from="n6:012" to="g113"></belt>
+			<belt from="n6:012" to="g114"></belt>
+			
+			<belt from="n6:013" to="g115"></belt>
+			<belt from="n6:013" to="g116"></belt>
+			<belt from="n6:013" to="g117"></belt>
+			<belt from="n6:013" to="g118"></belt>
+			<belt from="n6:013" to="g119"></belt>
+			
+			<belt from="n6:014" to="g120"></belt>
+			<belt from="n6:014" to="g121"></belt>
+			<belt from="n6:014" to="g122"></belt>
+			<belt from="n6:014" to="g123"></belt>
+			<belt from="n6:014" to="g124"></belt>
+			
+													<!-- BREAK -->
+			
+			<belt from="c20" to="n0:020"></belt>
+			<belt from="c21" to="n0:020"></belt>
+			<belt from="c22" to="n0:021"></belt>
+			<belt from="c23" to="n0:021"></belt>
+			<belt from="c24" to="n0:022"></belt>
+			
+			<belt from="c25" to="n0:022"></belt>
+			<belt from="c26" to="n0:023"></belt>
+			<belt from="c27" to="n0:023"></belt>
+			<belt from="c28" to="n0:024"></belt>
+			<belt from="c29" to="n0:024"></belt>
+			
+			<belt from="n0:020" to="n0:021"></belt>
+			<belt from="n0:021" to="n0:022"></belt>
+			<belt from="n0:022" to="n0:023"></belt>
+			<belt from="n0:023" to="n0:024"></belt>
+			
+			<belt from="n0:020" to="n1:020"></belt>
+			<belt from="n0:021" to="n1:020"></belt>
+			<belt from="n0:022" to="n1:021"></belt>
+			<belt from="n0:023" to="n1:022"></belt>
+			<belt from="n0:024" to="n1:022"></belt>
+			
+			<belt from="n1:020" to="n0:022"></belt>
+			<belt from="n1:021" to="n0:023"></belt>
+			<belt from="n1:023" to="n0:024"></belt>
+			<belt from="n1:020" to="n2:020"></belt>
+			<belt from="n1:021" to="n1:020"></belt>
+			<belt from="n1:022" to="n1:021"></belt>
+			<belt from="n1:021" to="n2:020"></belt>
+			<belt from="n1:022" to="n2:020"></belt>
+			
+			<belt from="n2:020" to="s2"></belt>
+			<belt from="s2" to="n3:021"></belt>
+			<belt from="s2" to="sec2"></belt>
+			
+			<belt from="n3:020" to="n3:021"></belt>
+			<belt from="n3:021" to="n3:022"></belt>
+			
+			<belt from="n3:021" to="n4:020"></belt>
+			<belt from="n3:021" to="n4:021"></belt>
+			<belt from="n3:021" to="n4:022"></belt>
+			
+			<belt from="n3:020" to="n4:020"></belt>
+			<belt from="n4:022" to="n3:022"></belt>
+			
+			<belt from="n4:020" to="n5:021"></belt>
+			<belt from="n4:020" to="n5:022"></belt>
+			
+			<belt from="n4:021" to="n5:023"></belt>
+			<belt from="n4:021" to="n5:024"></belt>
+			<belt from="n4:021" to="n5:026"></belt>
+			
+			<belt from="n4:022" to="n5:027"></belt>
+			<belt from="n4:022" to="n5:028"></belt>
+			
+			<belt from="n5:020" to="n6:020"></belt>
+			<belt from="n5:022" to="n6:021"></belt>
+			<belt from="n5:024" to="n6:022"></belt>
+			<belt from="n5:026" to="n6:023"></belt>
+			<belt from="n5:028" to="n6:024"></belt>
+			
+			<belt from="n5:021" to="n5:020"></belt>
+			<belt from="n5:023" to="n5:022"></belt>
+			<belt from="n5:025" to="n5:024"></belt>
+			<belt from="n5:027" to="n5:026"></belt>
+			<belt from="n5:029" to="n5:028"></belt>
+			
+			<belt from="n5:021" to="n6:020"></belt>
+			<belt from="n6:021" to="n5:023"></belt>
+			<belt from="n6:022" to="n5:025"></belt>
+			<belt from="n6:023" to="n5:027"></belt>
+			<belt from="n6:024" to="n5:029"></belt>
+			
+			<belt from="n5:022" to="n5:021"></belt>
+			<belt from="n5:024" to="n5:023"></belt>
+			<belt from="n5:026" to="n5:025"></belt>
+			<belt from="n5:028" to="n5:027"></belt>
+			
+			<belt from="n6:020" to="n6:021"></belt>
+			<belt from="n6:021" to="n6:022"></belt>
+			<belt from="n6:022" to="n6:023"></belt>
+			<belt from="n6:023" to="n6:024"></belt>
+			
+			<belt from="n6:020" to="g200"></belt>
+			<belt from="n6:020" to="g201"></belt>
+			<belt from="n6:020" to="g202"></belt>
+			<belt from="n6:020" to="g203"></belt>
+			<belt from="n6:020" to="g204"></belt>
+			
+			<belt from="n6:021" to="g205"></belt>
+			<belt from="n6:021" to="g206"></belt>
+			<belt from="n6:021" to="g207"></belt>
+			<belt from="n6:021" to="g208"></belt>
+			<belt from="n6:021" to="g209"></belt>
+			
+			<belt from="n6:022" to="g210"></belt>
+			<belt from="n6:022" to="g211"></belt>
+			<belt from="n6:022" to="g212"></belt>
+			<belt from="n6:022" to="g213"></belt>
+			<belt from="n6:022" to="g214"></belt>
+			
+			<belt from="n6:023" to="g215"></belt>
+			<belt from="n6:023" to="g216"></belt>
+			<belt from="n6:023" to="g217"></belt>
+			<belt from="n6:023" to="g218"></belt>
+			<belt from="n6:023" to="g219"></belt>
+											
+			<belt from="n6:024" to="g220"></belt>
+			<belt from="n6:024" to="g221"></belt>
+			<belt from="n6:024" to="g222"></belt>
+			<belt from="n6:024" to="g223"></belt>
+			<belt from="n6:024" to="g224"></belt>
+			
+										<!-- BREAK -->
+										
+										
+			<belt from="c30" to="n0:030"></belt>
+			<belt from="c31" to="n0:030"></belt>
+			<belt from="c32" to="n0:031"></belt>
+			<belt from="c33" to="n0:031"></belt>
+			<belt from="c34" to="n0:032"></belt>
+			
+			<belt from="c35" to="n0:032"></belt>
+			<belt from="c36" to="n0:033"></belt>
+			<belt from="c37" to="n0:033"></belt>
+			<belt from="c38" to="n0:034"></belt>
+			<belt from="c39" to="n0:034"></belt>
+			
+			<belt from="n0:030" to="n0:031"></belt>
+			<belt from="n0:031" to="n0:032"></belt>
+			<belt from="n0:032" to="n0:033"></belt>
+			<belt from="n0:033" to="n0:034"></belt>
+			
+			<belt from="n0:030" to="n1:030"></belt>
+			<belt from="n0:031" to="n1:030"></belt>
+			<belt from="n0:032" to="n1:031"></belt>
+			<belt from="n0:033" to="n1:032"></belt>
+			<belt from="n0:034" to="n1:032"></belt>
+			
+			<belt from="n1:030" to="n0:032"></belt>
+			<belt from="n1:031" to="n0:033"></belt>
+			<belt from="n1:033" to="n0:034"></belt>
+			<belt from="n1:030" to="n2:030"></belt>
+			<belt from="n1:031" to="n1:030"></belt>
+			<belt from="n1:032" to="n1:031"></belt>
+			<belt from="n1:031" to="n2:030"></belt>
+			<belt from="n1:032" to="n2:030"></belt>
+			
+			<belt from="n2:030" to="s3"></belt>
+			<belt from="s3" to="n3:031"></belt>
+			<belt from="s3" to="sec3"></belt>
+			
+			<belt from="n3:030" to="n3:031"></belt>
+			<belt from="n3:031" to="n3:032"></belt>
+			
+			<belt from="n3:031" to="n4:030"></belt>
+			<belt from="n3:031" to="n4:031"></belt>
+			<belt from="n3:031" to="n4:032"></belt>
+			
+			<belt from="n3:030" to="n4:030"></belt>
+			<belt from="n4:032" to="n3:032"></belt>
+			
+			<belt from="n4:030" to="n5:031"></belt>
+			<belt from="n4:030" to="n5:032"></belt>
+			
+			<belt from="n4:031" to="n5:033"></belt>
+			<belt from="n4:031" to="n5:034"></belt>
+			<belt from="n4:031" to="n5:036"></belt>
+			
+			<belt from="n4:032" to="n5:037"></belt>
+			<belt from="n4:032" to="n5:038"></belt>
+			
+			<belt from="n5:030" to="n6:030"></belt>
+			<belt from="n5:032" to="n6:031"></belt>
+			<belt from="n5:034" to="n6:032"></belt>
+			<belt from="n5:036" to="n6:033"></belt>
+			<belt from="n5:038" to="n6:034"></belt>
+			
+			<belt from="n5:031" to="n5:030"></belt>
+			<belt from="n5:033" to="n5:032"></belt>
+			<belt from="n5:035" to="n5:034"></belt>
+			<belt from="n5:037" to="n5:036"></belt>
+			<belt from="n5:039" to="n5:038"></belt>
+			
+			<belt from="n5:031" to="n6:030"></belt>
+			<belt from="n6:031" to="n5:033"></belt>
+			<belt from="n6:032" to="n5:035"></belt>
+			<belt from="n6:033" to="n5:037"></belt>
+			<belt from="n6:034" to="n5:039"></belt>
+			
+			<belt from="n5:032" to="n5:031"></belt>
+			<belt from="n5:034" to="n5:033"></belt>
+			<belt from="n5:036" to="n5:035"></belt>
+			<belt from="n5:038" to="n5:037"></belt>
+			
+			<belt from="n6:030" to="n6:031"></belt>
+			<belt from="n6:031" to="n6:032"></belt>
+			<belt from="n6:032" to="n6:033"></belt>
+			<belt from="n6:033" to="n6:034"></belt>
+			
+			<belt from="n6:030" to="g300"></belt>
+			<belt from="n6:030" to="g301"></belt>
+			<belt from="n6:030" to="g302"></belt>
+			<belt from="n6:030" to="g303"></belt>
+			<belt from="n6:030" to="g304"></belt>
+			
+			<belt from="n6:031" to="g305"></belt>
+			<belt from="n6:031" to="g306"></belt>
+			<belt from="n6:031" to="g307"></belt>
+			<belt from="n6:031" to="g308"></belt>
+			<belt from="n6:031" to="g309"></belt>
+			
+			<belt from="n6:032" to="g310"></belt>
+			<belt from="n6:032" to="g311"></belt>
+			<belt from="n6:032" to="g312"></belt>
+			<belt from="n6:032" to="g313"></belt>
+			<belt from="n6:032" to="g314"></belt>
+			
+			<belt from="n6:033" to="g315"></belt>
+			<belt from="n6:033" to="g316"></belt>
+			<belt from="n6:033" to="g317"></belt>
+			<belt from="n6:033" to="g318"></belt>
+			<belt from="n6:033" to="g319"></belt>
+											
+			<belt from="n6:034" to="g320"></belt>
+			<belt from="n6:034" to="g321"></belt>
+			<belt from="n6:034" to="g322"></belt>
+			<belt from="n6:034" to="g323"></belt>
+			<belt from="n6:034" to="g324"></belt>
+			
+			
+											<!-- BREAK -->
+										
+										
+			<belt from="c40" to="n0:040"></belt>
+			<belt from="c41" to="n0:040"></belt>
+			<belt from="c42" to="n0:041"></belt>
+			<belt from="c43" to="n0:041"></belt>
+			<belt from="c44" to="n0:042"></belt>
+			
+			<belt from="c45" to="n0:042"></belt>
+			<belt from="c46" to="n0:043"></belt>
+			<belt from="c47" to="n0:043"></belt>
+			<belt from="c48" to="n0:044"></belt>
+			<belt from="c49" to="n0:044"></belt>
+			
+			<belt from="n0:040" to="n0:041"></belt>
+			<belt from="n0:041" to="n0:042"></belt>
+			<belt from="n0:042" to="n0:043"></belt>
+			<belt from="n0:043" to="n0:044"></belt>
+			
+			<belt from="n0:040" to="n1:040"></belt>
+			<belt from="n0:041" to="n1:040"></belt>
+			<belt from="n0:042" to="n1:041"></belt>
+			<belt from="n0:043" to="n1:042"></belt>
+			<belt from="n0:044" to="n1:042"></belt>
+			
+			<belt from="n1:040" to="n0:042"></belt>
+			<belt from="n1:041" to="n0:043"></belt>
+			<belt from="n1:043" to="n0:044"></belt>
+			<belt from="n1:040" to="n2:040"></belt>
+			<belt from="n1:041" to="n1:040"></belt>
+			<belt from="n1:042" to="n1:041"></belt>
+			<belt from="n1:041" to="n2:040"></belt>
+			<belt from="n1:042" to="n2:040"></belt>
+			
+			<belt from="n2:040" to="s4"></belt>
+			<belt from="s4" to="n3:041"></belt>
+			<belt from="s4" to="sec4"></belt>
+			
+			<belt from="n3:040" to="n3:041"></belt>
+			<belt from="n3:041" to="n3:042"></belt>
+			
+			<belt from="n3:041" to="n4:040"></belt>
+			<belt from="n3:041" to="n4:041"></belt>
+			<belt from="n4:042" to="n3:041"></belt>
+			
+			<belt from="n3:040" to="n4:040"></belt>
+			<belt from="n3:042" to="n4:042"></belt>
+			
+			<belt from="n4:040" to="n5:041"></belt>
+			<belt from="n4:040" to="n5:042"></belt>
+			
+			<belt from="n4:041" to="n5:043"></belt>
+			<belt from="n4:041" to="n5:044"></belt>
+			<belt from="n4:041" to="n5:046"></belt>
+			
+			<belt from="n4:042" to="n5:047"></belt>
+			<belt from="n4:042" to="n5:048"></belt>
+			
+			<belt from="n5:040" to="n6:040"></belt>
+			<belt from="n5:042" to="n6:041"></belt>
+			<belt from="n5:044" to="n6:042"></belt>
+			<belt from="n5:046" to="n6:043"></belt>
+			<belt from="n5:048" to="n6:044"></belt>
+			
+			<belt from="n5:041" to="n5:040"></belt>
+			<belt from="n5:043" to="n5:042"></belt>
+			<belt from="n5:045" to="n5:044"></belt>
+			<belt from="n5:047" to="n5:046"></belt>
+			<belt from="n5:049" to="n5:048"></belt>
+			
+			<belt from="n5:041" to="n6:040"></belt>
+			<belt from="n6:041" to="n5:043"></belt>
+			<belt from="n6:042" to="n5:045"></belt>
+			<belt from="n6:043" to="n5:047"></belt>
+			<belt from="n6:044" to="n5:049"></belt>
+			
+			<belt from="n5:042" to="n5:041"></belt>
+			<belt from="n5:044" to="n5:043"></belt>
+			<belt from="n5:046" to="n5:045"></belt>
+			<belt from="n5:048" to="n5:047"></belt>
+			
+			<belt from="n6:040" to="n6:041"></belt>
+			<belt from="n6:041" to="n6:042"></belt>
+			<belt from="n6:042" to="n6:043"></belt>
+			<belt from="n6:043" to="n6:044"></belt>
+			
+			<belt from="n6:040" to="g400"></belt>
+			<belt from="n6:040" to="g401"></belt>
+			<belt from="n6:040" to="g402"></belt>
+			<belt from="n6:040" to="g403"></belt>
+			<belt from="n6:040" to="g404"></belt>
+			
+			<belt from="n6:041" to="g405"></belt>
+			<belt from="n6:041" to="g406"></belt>
+			<belt from="n6:041" to="g407"></belt>
+			<belt from="n6:041" to="g408"></belt>
+			<belt from="n6:041" to="g409"></belt>
+			
+			<belt from="n6:042" to="g410"></belt>
+			<belt from="n6:042" to="g411"></belt>
+			<belt from="n6:042" to="g412"></belt>
+			<belt from="n6:042" to="g413"></belt>
+			<belt from="n6:042" to="g414"></belt>
+			
+			<belt from="n6:043" to="g415"></belt>
+			<belt from="n6:043" to="g416"></belt>
+			<belt from="n6:043" to="g417"></belt>
+			<belt from="n6:043" to="g418"></belt>
+			<belt from="n6:043" to="g419"></belt>
+											
+			<belt from="n6:044" to="g420"></belt>
+			<belt from="n6:044" to="g421"></belt>
+			<belt from="n6:044" to="g422"></belt>
+			<belt from="n6:044" to="g423"></belt>
+			<belt from="n6:044" to="g424"></belt>
+			
+			<!-- CROSS-CONCOURSE STITCHING -->
+			
+			<belt from="n0:004" to="n0:010"></belt>
+			<belt from="n0:014" to="n0:020"></belt>
+			<belt from="n0:024" to="n0:030"></belt>
+			<belt from="n0:034" to="n0:040"></belt>
+			
+			<belt from="n1:010" to="n1:002"></belt>
+			<belt from="n1:020" to="n1:012"></belt>
+			<belt from="n1:030" to="n1:022"></belt>
+			<belt from="n1:040" to="n1:032"></belt>
+			
+			<belt from="n3:000" to="n3:002"></belt>
+			<belt from="n3:010" to="n3:012"></belt>
+			<belt from="n3:020" to="n3:022"></belt>
+			<belt from="n3:030" to="n3:032"></belt>
+			<belt from="n3:040" to="n3:042"></belt>
+			
+			<belt from="n3:002" to="n3:010"></belt>
+			<belt from="n3:012" to="n3:020"></belt>
+			<belt from="n3:022" to="n3:030"></belt>
+			<belt from="n3:032" to="n3:040"></belt>
+			
+			<belt from="n4:010" to="n4:002"></belt>
+			<belt from="n4:020" to="n4:012"></belt>
+			<belt from="n4:030" to="n4:022"></belt>
+			<belt from="n4:040" to="n4:032"></belt>
+			
+			<belt from="n3:002" to="n4:010"></belt>
+			<belt from="n3:012" to="n4:020"></belt>
+			<belt from="n3:022" to="n4:030"></belt>
+			<belt from="n3:032" to="n4:040"></belt>
+			
+			<belt from="n4:002" to="n3:010"></belt>
+			<belt from="n4:012" to="n3:020"></belt>
+			<belt from="n4:022" to="n3:030"></belt>
+			<belt from="n4:032" to="n3:040"></belt>
+			
+			<belt from="d000" to="n1:000"></belt>
+			<belt from="d002" to="n1:002"></belt>
+			<belt from="d003" to="n1:010"></belt>
+			<belt from="d004" to="n1:012"></belt>
+			<belt from="d005" to="n1:020"></belt>
+			<belt from="d006" to="n1:022"></belt>
+			<belt from="d007" to="n1:030"></belt>
+			<belt from="d008" to="n1:032"></belt>
+			<belt from="d009" to="n1:040"></belt>
+			<belt from="d010" to="n1:042"></belt>
+			
+		</CONNECTIONS>
+	</system_out>
+	
+	<system_in>
+		<HANDLERS>
+			
+			<coll id="cg000" x="30" y="25"></coll>
+			<coll id="cg001" x="50" y="25"></coll>
+			<coll id="cg002" x="70" y="25"></coll>
+			<coll id="cg003" x="90" y="25"></coll>
+			<coll id="cg004" x="110" y="25"></coll>
+			
+			<coll id="cg005" x="130" y="25"></coll>
+			<coll id="cg006" x="150" y="25"></coll>
+			<coll id="cg007" x="170" y="25"></coll>
+			<coll id="cg008" x="190" y="25"></coll>
+			<coll id="cg009" x="210" y="25"></coll>
+			<coll id="cg010" x="230" y="25"></coll>
+			<coll id="cg011" x="250" y="25"></coll>
+			<coll id="cg012" x="270" y="25"></coll>
+			<coll id="cg013" x="290" y="25"></coll>
+			<coll id="cg014" x="310" y="25"></coll>
+			<coll id="cg015" x="330" y="25"></coll>
+			<coll id="cg016" x="350" y="25"></coll>
+			<coll id="cg017" x="370" y="25"></coll>
+			<coll id="cg018" x="390" y="25"></coll>
+			<coll id="cg019" x="410" y="25"></coll>
+			<coll id="cg020" x="430" y="25"></coll>
+			<coll id="cg021" x="450" y="25"></coll>
+			<coll id="cg022" x="470" y="25"></coll>
+			<coll id="cg023" x="490" y="25"></coll>
+			<coll id="cg024" x="510" y="25"></coll>
+			
+			
+			<coll id="cg100" x="530" y="25"></coll>
+			<coll id="cg101" x="550" y="25"></coll>
+			<coll id="cg102" x="570" y="25"></coll>
+			<coll id="cg103" x="590" y="25"></coll>
+			<coll id="cg104" x="610" y="25"></coll>
+			<coll id="cg105" x="630" y="25"></coll>
+			<coll id="cg106" x="650" y="25"></coll>
+			<coll id="cg107" x="670" y="25"></coll>
+			<coll id="cg108" x="690" y="25"></coll>
+			<coll id="cg109" x="710" y="25"></coll>
+			<coll id="cg110" x="730" y="25"></coll>
+			<coll id="cg111" x="750" y="25"></coll>
+			<coll id="cg112" x="770" y="25"></coll>
+			<coll id="cg113" x="790" y="25"></coll>
+			<coll id="cg114" x="810" y="25"></coll>
+			<coll id="cg115" x="830" y="25"></coll>
+			<coll id="cg116" x="850" y="25"></coll>
+			<coll id="cg117" x="870" y="25"></coll>
+			<coll id="cg118" x="890" y="25"></coll>
+			<coll id="cg119" x="910" y="25"></coll>
+			<coll id="cg120" x="930" y="25"></coll>
+			<coll id="cg121" x="950" y="25"></coll>
+			<coll id="cg122" x="970" y="25"></coll>
+			<coll id="cg123" x="990" y="25"></coll>
+			<coll id="cg124" x="1010" y="25"></coll>
+			
+			<coll id="cg200" x="1030" y="25"></coll>
+			<coll id="cg201" x="1050" y="25"></coll>
+			<coll id="cg202" x="1070" y="25"></coll>
+			<coll id="cg203" x="1090" y="25"></coll>
+			<coll id="cg204" x="1110" y="25"></coll>
+			<coll id="cg205" x="1130" y="25"></coll>
+			<coll id="cg206" x="1150" y="25"></coll>
+			<coll id="cg207" x="1170" y="25"></coll>
+			<coll id="cg208" x="1190" y="25"></coll>
+			<coll id="cg209" x="1210" y="25"></coll>
+			<coll id="cg210" x="1230" y="25"></coll>
+			<coll id="cg211" x="1250" y="25"></coll>
+			<coll id="cg212" x="1270" y="25"></coll>
+			<coll id="cg213" x="1290" y="25"></coll>
+			<coll id="cg214" x="1310" y="25"></coll>
+			<coll id="cg215" x="1330" y="25"></coll>
+			<coll id="cg216" x="1350" y="25"></coll>
+			<coll id="cg217" x="1370" y="25"></coll>
+			<coll id="cg218" x="1390" y="25"></coll>
+			<coll id="cg219" x="1410" y="25"></coll>
+			<coll id="cg220" x="1430" y="25"></coll>
+			<coll id="cg221" x="1450" y="25"></coll>
+			<coll id="cg222" x="1470" y="25"></coll>
+			<coll id="cg223" x="1490" y="25"></coll>
+			<coll id="cg224" x="1510" y="25"></coll>
+			
+			<coll id="cg300" x="1530" y="25"></coll>
+			<coll id="cg301" x="1550" y="25"></coll>
+			<coll id="cg302" x="1570" y="25"></coll>
+			<coll id="cg303" x="1590" y="25"></coll>
+			<coll id="cg304" x="1610" y="25"></coll>
+			<coll id="cg305" x="1630" y="25"></coll>
+			<coll id="cg306" x="1650" y="25"></coll>
+			<coll id="cg307" x="1670" y="25"></coll>
+			<coll id="cg308" x="1690" y="25"></coll>
+			<coll id="cg309" x="1710" y="25"></coll>
+			<coll id="cg310" x="1730" y="25"></coll>
+			<coll id="cg311" x="1750" y="25"></coll>
+			<coll id="cg312" x="1770" y="25"></coll>
+			<coll id="cg313" x="1790" y="25"></coll>
+			<coll id="cg314" x="1810" y="25"></coll>
+			<coll id="cg315" x="1830" y="25"></coll>
+			<coll id="cg316" x="1850" y="25"></coll>
+			<coll id="cg317" x="1870" y="25"></coll>
+			<coll id="cg318" x="1890" y="25"></coll>
+			<coll id="cg319" x="1910" y="25"></coll>
+			<coll id="cg320" x="1930" y="25"></coll>
+			<coll id="cg321" x="1950" y="25"></coll>
+			<coll id="cg322" x="1970" y="25"></coll>
+			<coll id="cg323" x="1990" y="25"></coll>
+			<coll id="cg324" x="2010" y="25"></coll>
+			
+			<coll id="cg400" x="2030" y="25"></coll>
+			<coll id="cg401" x="2050" y="25"></coll>
+			<coll id="cg402" x="2070" y="25"></coll>
+			<coll id="cg403" x="2090" y="25"></coll>
+			<coll id="cg404" x="2110" y="25"></coll>
+			<coll id="cg405" x="2130" y="25"></coll>
+			<coll id="cg406" x="2150" y="25"></coll>
+			<coll id="cg407" x="2170" y="25"></coll>
+			<coll id="cg408" x="2190" y="25"></coll>
+			<coll id="cg409" x="2210" y="25"></coll>
+			<coll id="cg410" x="2230" y="25"></coll>
+			<coll id="cg411" x="2250" y="25"></coll>
+			<coll id="cg412" x="2270" y="25"></coll>
+			<coll id="cg413" x="2290" y="25"></coll>
+			<coll id="cg414" x="2310" y="25"></coll>
+			<coll id="cg415" x="2330" y="25"></coll>
+			<coll id="cg416" x="2350" y="25"></coll>
+			<coll id="cg417" x="2370" y="25"></coll>
+			<coll id="cg418" x="2390" y="25"></coll>
+			<coll id="cg419" x="2410" y="25"></coll>
+			<coll id="cg420" x="2430" y="25"></coll>
+			<coll id="cg421" x="2450" y="25"></coll>
+			<coll id="cg422" x="2470" y="25"></coll>
+			<coll id="cg423" x="2490" y="25"></coll>
+			<coll id="cg424" x="2510" y="25"></coll>
+			
+			<node id="n0:000" x="70" y="-55"></node>
+			<node id="n0:001" x="170" y="-55"></node>
+			<node id="n0:002" x="270" y="-55"></node>
+			<node id="n0:003" x="370" y="-55"></node>
+			<node id="n0:004" x="470" y="-55"></node>
+			
+			<node id="n0:100" x="570" y="-55"></node>
+			<node id="n0:101" x="670" y="-55"></node>
+			<node id="n0:102" x="770" y="-55"></node>
+			<node id="n0:103" x="870" y="-55"></node>
+			<node id="n0:104" x="970" y="-55"></node>
+			
+			<node id="n0:200" x="1070" y="-55"></node>
+			<node id="n0:201" x="1170" y="-55"></node>
+			<node id="n0:202" x="1270" y="-55"></node>
+			<node id="n0:203" x="1370" y="-55"></node>
+			<node id="n0:204" x="1470" y="-55"></node>
+			
+			<node id="n0:300" x="1570" y="-55"></node>
+			<node id="n0:301" x="1670" y="-55"></node>
+			<node id="n0:302" x="1770" y="-55"></node>
+			<node id="n0:303" x="1870" y="-55"></node>
+			<node id="n0:304" x="1970" y="-55"></node>
+			
+			<node id="n0:400" x="2070" y="-55"></node>
+			<node id="n0:401" x="2170" y="-55"></node>
+			<node id="n0:402" x="2270" y="-55"></node>
+			<node id="n0:403" x="2370" y="-55"></node>
+			<node id="n0:404" x="2470" y="-55"></node>
+			
+			<node id="n1:000" x="170" y="-150"></node>
+			<node id="n1:001" x="270" y="-150"></node>
+			<node id="n1:002" x="370" y="-150"></node>
+			
+			<node id="n1:100" x="670" y="-150"></node>
+			<node id="n1:101" x="770" y="-150"></node>
+			<node id="n1:102" x="870" y="-150"></node>
+			
+			<node id="n1:200" x="1170" y="-150"></node>
+			<node id="n1:201" x="1270" y="-150"></node>
+			<node id="n1:202" x="1370" y="-150"></node>
+			
+			<node id="n1:300" x="1670" y="-150"></node>
+			<node id="n1:301" x="1770" y="-150"></node>
+			<node id="n1:302" x="1870" y="-150"></node>
+			
+			<node id="n1:400" x="2170" y="-150"></node>
+			<node id="n1:401" x="2270" y="-150"></node>
+			<node id="n1:402" x="2370" y="-150"></node>
+			
+			
+			<node id="n2:000" x="170" y="-250"></node>
+			<node id="n2:001" x="270" y="-250"></node>
+			<node id="n2:002" x="370" y="-250"></node>
+			
+			<node id="n2:100" x="670" y="-250"></node>
+			<node id="n2:101" x="770" y="-250"></node>
+			<node id="n2:102" x="870" y="-250"></node>
+			
+			<node id="n2:200" x="1170" y="-250"></node>
+			<node id="n2:201" x="1270" y="-250"></node>
+			<node id="n2:202" x="1370" y="-250"></node>
+			
+			<node id="n2:300" x="1670" y="-250"></node>
+			<node id="n2:301" x="1770" y="-250"></node>
+			<node id="n2:302" x="1870" y="-250"></node>
+			
+			<node id="n2:400" x="2170" y="-250"></node>
+			<node id="n2:401" x="2270" y="-250"></node>
+			<node id="n2:402" x="2370" y="-250"></node>
+			
+			<node id="n3:000" x="770" y="-350"></node>
+			<node id="n3:001" x="1270" y="-350"></node>
+			<node id="n3:002" x="1770" y="-350"></node>
+
+			<bagclaim id="claim0" x="770" y="-450"></bagclaim>
+			<bagclaim id="claim1" x="1270" y="-450"></bagclaim>
+			<bagclaim id="claim2" x="1770" y="-450"></bagclaim>
+		</HANDLERS>
+		<CONNECTIONS>
+			<belt from="cg000" to="n0:000"></belt>
+			<belt from="cg001" to="n0:000"></belt>
+			<belt from="cg002" to="n0:000"></belt>
+			<belt from="cg003" to="n0:000"></belt>
+			<belt from="cg004" to="n0:000"></belt>
+			
+			<belt from="cg005" to="n0:001"></belt>
+			<belt from="cg006" to="n0:001"></belt>
+			<belt from="cg007" to="n0:001"></belt>
+			<belt from="cg008" to="n0:001"></belt>
+			<belt from="cg009" to="n0:001"></belt>
+			
+			<belt from="cg010" to="n0:002"></belt>
+			<belt from="cg011" to="n0:002"></belt>
+			<belt from="cg012" to="n0:002"></belt>
+			<belt from="cg013" to="n0:002"></belt>
+			<belt from="cg014" to="n0:002"></belt>
+			
+			<belt from="cg015" to="n0:003"></belt>
+			<belt from="cg016" to="n0:003"></belt>
+			<belt from="cg017" to="n0:003"></belt>
+			<belt from="cg018" to="n0:003"></belt>
+			<belt from="cg019" to="n0:003"></belt>
+			
+			<belt from="cg020" to="n0:004"></belt>
+			<belt from="cg021" to="n0:004"></belt>
+			<belt from="cg022" to="n0:004"></belt>
+			<belt from="cg023" to="n0:004"></belt>
+			<belt from="cg024" to="n0:004"></belt>
+		
+		<belt from="cg100" to="n0:100"></belt>
+			<belt from="cg101" to="n0:100"></belt>
+			<belt from="cg102" to="n0:100"></belt>
+			<belt from="cg103" to="n0:100"></belt>
+			<belt from="cg104" to="n0:100"></belt>
+			
+			<belt from="cg105" to="n0:101"></belt>
+			<belt from="cg106" to="n0:101"></belt>
+			<belt from="cg107" to="n0:101"></belt>
+			<belt from="cg108" to="n0:101"></belt>
+			<belt from="cg109" to="n0:101"></belt>
+			
+			<belt from="cg110" to="n0:102"></belt>
+			<belt from="cg111" to="n0:102"></belt>
+			<belt from="cg112" to="n0:102"></belt>
+			<belt from="cg113" to="n0:102"></belt>
+			<belt from="cg114" to="n0:102"></belt>
+			
+			<belt from="cg115" to="n0:103"></belt>
+			<belt from="cg116" to="n0:103"></belt>
+			<belt from="cg117" to="n0:103"></belt>
+			<belt from="cg118" to="n0:103"></belt>
+			<belt from="cg119" to="n0:103"></belt>
+			
+			<belt from="cg120" to="n0:104"></belt>
+			<belt from="cg121" to="n0:104"></belt>
+			<belt from="cg122" to="n0:104"></belt>
+			<belt from="cg123" to="n0:104"></belt>
+			<belt from="cg124" to="n0:104"></belt>
+			
+			<belt from="cg200" to="n0:200"></belt>
+			<belt from="cg201" to="n0:200"></belt>
+			<belt from="cg202" to="n0:200"></belt>
+			<belt from="cg203" to="n0:200"></belt>
+			<belt from="cg204" to="n0:200"></belt>
+			
+			<belt from="cg205" to="n0:201"></belt>
+			<belt from="cg206" to="n0:201"></belt>
+			<belt from="cg207" to="n0:201"></belt>
+			<belt from="cg208" to="n0:201"></belt>
+			<belt from="cg209" to="n0:201"></belt>
+			
+			<belt from="cg210" to="n0:202"></belt>
+			<belt from="cg211" to="n0:202"></belt>
+			<belt from="cg212" to="n0:202"></belt>
+			<belt from="cg213" to="n0:202"></belt>
+			<belt from="cg214" to="n0:202"></belt>
+			
+			<belt from="cg215" to="n0:203"></belt>
+			<belt from="cg216" to="n0:203"></belt>
+			<belt from="cg217" to="n0:203"></belt>
+			<belt from="cg218" to="n0:203"></belt>
+			<belt from="cg219" to="n0:203"></belt>
+			
+			<belt from="cg220" to="n0:204"></belt>
+			<belt from="cg221" to="n0:204"></belt>
+			<belt from="cg222" to="n0:204"></belt>
+			<belt from="cg223" to="n0:204"></belt>
+			<belt from="cg224" to="n0:204"></belt>
+			
+			<belt from="cg300" to="n0:300"></belt>
+			<belt from="cg301" to="n0:300"></belt>
+			<belt from="cg302" to="n0:300"></belt>
+			<belt from="cg303" to="n0:300"></belt>
+			<belt from="cg304" to="n0:300"></belt>
+			
+			<belt from="cg305" to="n0:301"></belt>
+			<belt from="cg306" to="n0:301"></belt>
+			<belt from="cg307" to="n0:301"></belt>
+			<belt from="cg308" to="n0:301"></belt>
+			<belt from="cg309" to="n0:301"></belt>
+			
+			<belt from="cg310" to="n0:302"></belt>
+			<belt from="cg311" to="n0:302"></belt>
+			<belt from="cg312" to="n0:302"></belt>
+			<belt from="cg313" to="n0:302"></belt>
+			<belt from="cg314" to="n0:302"></belt>
+			
+			<belt from="cg315" to="n0:303"></belt>
+			<belt from="cg316" to="n0:303"></belt>
+			<belt from="cg317" to="n0:303"></belt>
+			<belt from="cg318" to="n0:303"></belt>
+			<belt from="cg319" to="n0:303"></belt>
+			
+			<belt from="cg320" to="n0:304"></belt>
+			<belt from="cg321" to="n0:304"></belt>
+			<belt from="cg322" to="n0:304"></belt>
+			<belt from="cg323" to="n0:304"></belt>
+			<belt from="cg324" to="n0:304"></belt>
+			
+			<belt from="cg400" to="n0:400"></belt>
+			<belt from="cg401" to="n0:400"></belt>
+			<belt from="cg402" to="n0:400"></belt>
+			<belt from="cg403" to="n0:400"></belt>
+			<belt from="cg404" to="n0:400"></belt>
+			
+			<belt from="cg405" to="n0:401"></belt>
+			<belt from="cg406" to="n0:401"></belt>
+			<belt from="cg407" to="n0:401"></belt>
+			<belt from="cg408" to="n0:401"></belt>
+			<belt from="cg409" to="n0:401"></belt>
+			
+			<belt from="cg410" to="n0:402"></belt>
+			<belt from="cg411" to="n0:402"></belt>
+			<belt from="cg412" to="n0:402"></belt>
+			<belt from="cg413" to="n0:402"></belt>
+			<belt from="cg414" to="n0:402"></belt>
+			
+			<belt from="cg415" to="n0:403"></belt>
+			<belt from="cg416" to="n0:403"></belt>
+			<belt from="cg417" to="n0:403"></belt>
+			<belt from="cg418" to="n0:403"></belt>
+			<belt from="cg419" to="n0:403"></belt>
+			
+			<belt from="cg420" to="n0:404"></belt>
+			<belt from="cg421" to="n0:404"></belt>
+			<belt from="cg422" to="n0:404"></belt>
+			<belt from="cg423" to="n0:404"></belt>
+			<belt from="cg424" to="n0:404"></belt>
+			
+			<belt from="n0:000" to="n1:000"></belt>
+			<belt from="n0:001" to="n1:000"></belt>
+			<belt from="n0:002" to="n1:000"></belt>
+			<belt from="n0:001" to="n1:001"></belt>
+			<belt from="n0:002" to="n1:001"></belt>
+			<belt from="n0:003" to="n1:001"></belt>
+			<belt from="n0:002" to="n1:002"></belt>
+			<belt from="n0:003" to="n1:002"></belt>
+			<belt from="n0:004" to="n1:002"></belt>
+			
+			<belt from="n0:100" to="n1:100"></belt>
+			<belt from="n0:101" to="n1:100"></belt>
+			<belt from="n0:102" to="n1:100"></belt>
+			<belt from="n0:101" to="n1:101"></belt>
+			<belt from="n0:102" to="n1:101"></belt>
+			<belt from="n0:103" to="n1:101"></belt>
+			<belt from="n0:102" to="n1:102"></belt>
+			<belt from="n0:103" to="n1:102"></belt>
+			<belt from="n0:104" to="n1:102"></belt>
+			
+			<belt from="n0:200" to="n1:200"></belt>
+			<belt from="n0:201" to="n1:200"></belt>
+			<belt from="n0:202" to="n1:200"></belt>
+			<belt from="n0:201" to="n1:201"></belt>
+			<belt from="n0:202" to="n1:201"></belt>
+			<belt from="n0:203" to="n1:201"></belt>
+			<belt from="n0:202" to="n1:202"></belt>
+			<belt from="n0:203" to="n1:202"></belt>
+			<belt from="n0:204" to="n1:202"></belt>
+			
+			<belt from="n0:300" to="n1:300"></belt>
+			<belt from="n0:301" to="n1:300"></belt>
+			<belt from="n0:302" to="n1:300"></belt>
+			<belt from="n0:301" to="n1:301"></belt>
+			<belt from="n0:302" to="n1:301"></belt>
+			<belt from="n0:303" to="n1:301"></belt>
+			<belt from="n0:302" to="n1:302"></belt>
+			<belt from="n0:303" to="n1:302"></belt>
+			<belt from="n0:304" to="n1:302"></belt>
+			
+			<belt from="n0:400" to="n1:400"></belt>
+			<belt from="n0:401" to="n1:400"></belt>
+			<belt from="n0:402" to="n1:400"></belt>
+			<belt from="n0:401" to="n1:401"></belt>
+			<belt from="n0:402" to="n1:401"></belt>
+			<belt from="n0:403" to="n1:401"></belt>
+			<belt from="n0:402" to="n1:402"></belt>
+			<belt from="n0:403" to="n1:402"></belt>
+			<belt from="n0:404" to="n1:402"></belt>
+			
+			<belt from="n2:000" to="n1:000"></belt>
+			<belt from="n2:001" to="n1:001"></belt>
+			<belt from="n2:002" to="n1:002"></belt>
+			
+			<belt from="n1:000" to="n2:001"></belt>
+			<belt from="n1:000" to="n1:001"></belt>
+			<belt from="n1:001" to="n2:002"></belt>
+			<belt from="n1:001" to="n1:002"></belt>
+			<belt from="n1:002" to="n2:100"></belt>
+			<belt from="n1:002" to="n1:100"></belt>
+			
+			<belt from="n1:000" to="n2:001"></belt>
+			<belt from="n1:000" to="n1:001"></belt>
+			
+			<belt from="n2:100" to="n1:100"></belt>
+			<belt from="n2:101" to="n1:101"></belt>
+			<belt from="n2:102" to="n1:102"></belt>
+			
+			<belt from="n1:100" to="n2:101"></belt>
+			<belt from="n1:100" to="n1:101"></belt>
+			<belt from="n1:101" to="n2:102"></belt>
+			<belt from="n1:101" to="n1:102"></belt>
+			<belt from="n1:102" to="n2:200"></belt>
+			<belt from="n1:102" to="n1:200"></belt>
+			
+			<belt from="n1:100" to="n2:101"></belt>
+			<belt from="n1:100" to="n1:101"></belt>
+			
+			<belt from="n2:200" to="n1:200"></belt>
+			<belt from="n2:201" to="n1:201"></belt>
+			<belt from="n2:202" to="n1:202"></belt>
+			
+			<belt from="n1:200" to="n2:201"></belt>
+			<belt from="n1:200" to="n1:201"></belt>
+			<belt from="n1:201" to="n2:202"></belt>
+			<belt from="n1:201" to="n1:202"></belt>
+			<belt from="n1:202" to="n2:300"></belt>
+			<belt from="n1:202" to="n1:300"></belt>
+			
+			<belt from="n1:200" to="n2:201"></belt>
+			<belt from="n1:200" to="n1:201"></belt>
+			
+			<belt from="n2:300" to="n1:300"></belt>
+			<belt from="n2:301" to="n1:301"></belt>
+			<belt from="n2:302" to="n1:302"></belt>
+			
+			<belt from="n1:300" to="n2:301"></belt>
+			<belt from="n1:300" to="n1:301"></belt>
+			<belt from="n1:301" to="n2:302"></belt>
+			<belt from="n1:301" to="n1:302"></belt>
+			<belt from="n1:302" to="n2:400"></belt>
+			<belt from="n1:302" to="n1:400"></belt>
+			
+			<belt from="n1:300" to="n2:301"></belt>
+			<belt from="n1:300" to="n1:301"></belt>
+			
+			<belt from="n2:400" to="n1:400"></belt>
+			<belt from="n2:401" to="n1:401"></belt>
+			<belt from="n1:402" to="n2:402"></belt>
+			
+			<belt from="n1:400" to="n2:401"></belt>
+			<belt from="n1:400" to="n1:401"></belt>
+			<belt from="n1:401" to="n2:402"></belt>
+			<belt from="n1:402" to="n1:401"></belt>
+			
+			<belt from="n1:400" to="n2:401"></belt>
+			<belt from="n1:400" to="n1:401"></belt>
+			<belt from="n1:100" to="n2:002"></belt>
+			<belt from="n1:200" to="n2:102"></belt>
+			<belt from="n1:300" to="n2:202"></belt>
+			<belt from="n1:400" to="n2:302"></belt>
+			
+			<belt from="n2:402" to="n2:401"></belt>
+			<belt from="n2:401" to="n2:400"></belt>
+			<belt from="n2:400" to="n2:302"></belt>
+			
+			<belt from="n2:302" to="n2:301"></belt>
+			<belt from="n2:301" to="n2:300"></belt>
+			<belt from="n2:300" to="n2:202"></belt>
+			
+			<belt from="n2:202" to="n2:201"></belt>
+			<belt from="n2:201" to="n2:200"></belt>
+			<belt from="n2:200" to="n2:102"></belt>
+			
+			<belt from="n2:102" to="n2:101"></belt>
+			<belt from="n2:101" to="n2:100"></belt>
+			<belt from="n2:100" to="n2:002"></belt>
+			
+			<belt from="n2:002" to="n2:001"></belt>
+			<belt from="n2:001" to="n2:000"></belt>
+			
+			<belt from="n2:001" to="n3:000"></belt>
+			<belt from="n2:101" to="n3:000"></belt>
+			<belt from="n2:201" to="n3:000"></belt>
+			
+			<belt from="n2:101" to="n3:001"></belt>
+			<belt from="n2:201" to="n3:001"></belt>
+			<belt from="n2:301" to="n3:001"></belt>
+			
+			<belt from="n2:201" to="n3:002"></belt>
+			<belt from="n2:301" to="n3:002"></belt>
+			<belt from="n2:401" to="n3:002"></belt>
+			
+			<belt from="n3:000" to="claim0"></belt>
+			<belt from="n3:001" to="claim1"></belt>
+			<belt from="n3:002" to="claim2"></belt>
+		</CONNECTIONS>
+	</system_in>
+	
+	
+	<AIRLINES>
+		<airline>United Airlines</airline>
+		<airline>Southwest Airlines</airline>
+		<airline>Delta Airlines</airline>
+		<airline>American Airlines</airline>
+		<airline>Air France</airline>
+		<airline>US Airways</airline>
+		<airline>Emirates Airline</airline>
+	</AIRLINES>
+	
+	<AIRPORTS>
+		<airport>DIA</airport>
+		<airport>PDX</airport>
+		<airport>LAX</airport>
+		<airport>LHR</airport>
+		<airport>JFK</airport>
+		<airport>HKG</airport>
+		<airport>HOU</airport>
+		<airport>ATL</airport>
+		<airport>PEK</airport>
+	</AIRPORTS>
+	
+	
+</CONFIG>

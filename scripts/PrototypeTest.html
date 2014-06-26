@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+
+<script type="text/javascript">
+
+function ParentObject()
+{
+	this.x;
+	this.y;
+}
+
+ParentObject.prototype.z = 2;
+ParentObject.prototype.x = 2;
+
+var parent1 = new ParentObject()
+
+ParentObject.prototype.y = 2;
+
+var parent2 = new ParentObject()
+
+parent1.z=3;
+//parent2.z=3;
+ParentObject.prototype.z = 0; //ignoreddirect refrence to object overides prototype as it should
+
+function ChildObject()
+{
+	this.w;
+	this.v = 1; 
+	this.y = 5; 
+}
+
+ChildObject.prototype = ParentObject.prototype;
+child1 = new ChildObject();
+ChildObject.prototype.w = 5; 
+ChildObject.prototype.x = 5; 
+
+child2 = new ChildObject();
+ChildObject.prototype.x = 6; 
+child2.x = 7;
+//child1.prototype.x = 8; does not work. must call prototype on abstract class not instatiated var
+
+function ChildObjectB()
+{
+	
+	this.v = 2; 
+	this.u = 8;
+}
+ChildObjectB.prototype = ParentObject.prototype;
+ChildObjectB.prototype.x = 6; 
+childB = new ChildObjectB();
+
+function GrandChildObject()
+{
+	this.v = 3; 
+}
+GrandChildObject.prototype=ChildObject.prototype;
+
+gchild1 = new GrandChildObject();
+GrandChildObject.prototype.u = 10; 
+GrandChildObject.prototype.z = 11;
+
+function GrandChildObjectB()
+{
+	this.v = 4; 
+}
+GrandChildObject.prototype= new ChildObjectB(); //So this creats a new instance of the prototpye which works but according to internet this is bad because it wastes memory. use .call(this)
+//http://stackoverflow.com/questions/13127589/why-are-my-js-object-properties-being-overwritten-by-other-instances<br />
+//this looks like a better method too http://stackoverflow.com/questions/12592913/what-is-the-reason-to-use-the-new-keyword-here/12593049#12593049
+
+gchildb = new GrandChildObject();
+GrandChildObject.prototype.u = 20; 
+GrandChildObject.prototype.z = 21;
+
+//this is crazy http://www.kevlindev.com/tutorials/javascript/inheritance/index.htm
+//http://brianscaturro.com/2011/10/31/javascript-inheritance.html
+
+function init()
+{
+	document.write( "parent1 x" +  parent1.x + " y" + parent1.y + " z" + parent1.z + " u" + parent1.u +"<br />"
+				   +"parent2 x" +  parent2.x + " y" + parent2.y + " z" + parent2.z + " u" + parent2.u +"<br />"
+				   
+				   +"child1 x" +  child1.x + " y" + child1.y + " z" + child1.z + " w" + child1.w + " v" + child1["v"]+ " u" + child1.u +"<br />"
+				   +"child2 x" +  child2.x + " y" + child2.y + " z" + child2.z + " w" + child2.w + " v" + child2["v"]+ " u" + child2.u +"<br />"
+				   +"childB x" +  childB.x + " y" + childB.y + " z" + childB.z + " w" + childB.w + " v" + childB["v"]+ " u" + childB.u +"<br />"
+				   
+				   +"Gchild1 x" +  gchild1.x + " y" + gchild1.y + " z" + gchild1.z + " w" + gchild1.w + " v" + gchild1["v"]+ " u" + gchild1.u +"<br />"
+				   +"GchildB x" +  gchildb.x + " y" + gchildb.y + " z" + gchildb.z + " w" + gchildb.w + " v" + gchildb["v"]+ " u" + gchildb.u +"<br />"
+					
+	
+	);
+
+}
+</script>
+</head>
+
+<body onload="init();">
+</body>
+</html>
